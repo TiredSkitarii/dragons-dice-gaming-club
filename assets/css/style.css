@@ -22,8 +22,12 @@ footer {
     background-color: darkred;
     color: whitesmoke
 }
+/* Adds space between sections */
+.section {
+    padding-top: 2rem;
+}
 
 /* pushes Header to be visible beneath Navbar */
-.section {
-    padding-top: 6rem
+#header {
+    padding-top: 6rem;
 }
