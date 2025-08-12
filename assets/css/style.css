@@ -1,3 +1,13 @@
+/* Google Font Styles */
+@import url('https://fonts.googleapis.com/css2?family=Caesar+Dressing&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* CSS Variables */
+
+:root {
+    --primary-font: "Montserrat", sans-serif;
+    --secondary-font: "Caesar Dressing", cursive;
+}
+
 /* General Styles */
 
 body {
