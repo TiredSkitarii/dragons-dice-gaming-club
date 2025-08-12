@@ -23,6 +23,7 @@ footer {
     color: whitesmoke
 }
 
+/* pushes Header to be visible beneath Navbar */
 .section {
     padding-top: 6rem
 }
