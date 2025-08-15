@@ -32,6 +32,12 @@ footer {
     padding-top: 6rem;
 }
 
+#events-list {
+    padding-top: 6rem;
+}
+
+/* Footer Section */
+
 #contact .social-links i {
     color: whitesmoke;
     font-size: 2rem
