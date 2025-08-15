@@ -31,3 +31,8 @@ footer {
 #header {
     padding-top: 6rem;
 }
+
+#contact .social-links {
+    color: whitesmoke;
+    font-size: 2rem
+}
