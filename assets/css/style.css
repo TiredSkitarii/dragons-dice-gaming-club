@@ -36,7 +36,17 @@ footer {
     padding-top: 6rem;
 }
 
+/* Events Page */
+
+.card {
+    margin-bottom: 1rem;
+}
+
 /* Footer Section */
+
+#footer {
+    margin-top: 1rem;
+}
 
 #contact .social-links i {
     color: whitesmoke;
