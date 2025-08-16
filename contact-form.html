@@ -63,15 +63,35 @@
     <div class="row">
         <div class="col-12">
             <h3>Contact Form</h3>
-            <form>
-                <!-- Name -->
-                <!-- Email -->
-                <!-- Contact Type -->
-                <!-- Text area for message -->
+            <form action="#" method="GET">
+                <div class="row">
+                    <div class="col-12">
+                        <input class="form-control" id="name" name="name" type="text" required>
+                        <label for="name" class="form-label">Name</label>
+                    </div>
+                    <div class="col-12">
+                        <input class="form-control" id="email" name="email" type="email" required>
+                        <label for="email" class="form-label">Email Address</label>
+                    </div>
+                    <div class="col-12">
+                        <label for="contact-reason" class="form-label">Contact Reason</label>
+                        <select id="contact-reason" name="contact-reason" class="form-select" required>
+                            <option value="" selected>select an option</option>
+                            <option value="join-club">Join Dragon's Dice Gaming Club</option>
+                            <option value="newsletter-sign-up">Sign up to Newletter</option>
+                            <option value="event-sign-up">Sign up for Event</option>
+                            <option value="general-query"> General Question/Message</option>
+                        </select>
+                    </div>
+                    <div class="col-12">
+                        <label for="message" class="form-label">Name</label>
+                        <textarea class="form-control" rows="8" id="message" name="message" required></textarea>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-dark">Submit</button>
             </form>
         </div>
     </div>
-
 </section>
 
 </main>
