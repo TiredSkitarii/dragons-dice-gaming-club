@@ -40,6 +40,13 @@ footer {
     padding-top: 6rem;
 }
 
+/* Carousel */
+
+.carousel-item img {
+    height: 20rem;
+    width: 100%;
+}
+
 /* Events Page */
 
 .card {
