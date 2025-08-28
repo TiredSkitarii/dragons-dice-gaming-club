@@ -53,6 +53,10 @@ footer {
     margin-bottom: 1rem;
 }
 
+.card img {
+    height: 12rem;
+}
+
 /* Contact form */
 
 #contact-form button {
