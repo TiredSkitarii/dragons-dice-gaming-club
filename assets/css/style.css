@@ -51,6 +51,8 @@ footer {
 
 .card {
     margin-bottom: 1rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .card img {
