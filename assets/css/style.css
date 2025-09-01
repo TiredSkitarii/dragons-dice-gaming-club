@@ -40,6 +40,12 @@ footer {
     padding-top: 6rem;
 }
 
+/* Header */
+
+#header p {
+    font-size: large;
+}
+
 /* Carousel */
 
 .carousel-item img {
