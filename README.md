@@ -16,4 +16,37 @@ The Customer Goals are:
 
 ## UX
 
+### Ideal user
+There are two types of ideal user for this website - a New Visitor and an Existing Member. However, of the two, the New Visitor is the priority focus of the site, as existing Members can be expected to already know many of the details about the Clib, and only be visiting the site for updates on the Events page, while a New Visitor represents a potential new member to the club.
+
+**The ideal New User:**
+- A Tabletop Games player who engages with one or more gaming systems
+- Disposable income (so they can afford the club fees)
+- enough free time to be able to attend activities
+
+**A Visitor to this site is looking for:**
+- A gaming club they can join to play tabletop games
+- information on both the club itself and any events being run
+
+**This project acheives these goals by:**
+- Providing information on the Club and what it offers a prospective new member
+- Details on the Clubs' regular activities, including a timetable
+- A link to a simple contact form to sign up to the club
+- A seperate page detailing upcoming events being run by the club, with links to sign up for the event
+
+**Client Stories**
+1. As a New Visitor to this site, I want to learn more about what the Club does, so I can see if it meets my needs.
+2. As a New Visitor to this site, I want to learn more about the Club's values, so I can see if it meets my preferences.
+3. As a New Visitor to this site, I want to learn more about the Clubs regular activites, so I can see if it supports any of the games I play.
+4. As a New Visitor to this site, I want to see when the Club is running, so I can see if I can take part.
+5. As a New Visitor to this site, I want to be able to easily contact the club, so I can sign up or ask a question.
+7. As an Exisiting Member of the club, I want to see what new events are upcoming, so I can see if I can take part.
+8. As an Exisiting Member of the club, I want to be able to easily contact the club, so I can sign up for events or request new information.
+
+**Wireframe Mockups**
+Mobile devices (Small Screen Size)
+
+Desktop Devices (Large Screen Size)
+
 ## Features
+
