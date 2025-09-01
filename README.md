@@ -44,9 +44,11 @@ There are two types of ideal user for this website - a New Visitor and an Existi
 8. As an Exisiting Member of the club, I want to be able to easily contact the club, so I can sign up for events or request new information.
 
 **Wireframe Mockups**
+
 Mobile devices (Small Screen Size)
 
 Desktop Devices (Large Screen Size)
 
 ## Features
+
 
