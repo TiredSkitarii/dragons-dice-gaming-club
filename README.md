@@ -106,7 +106,7 @@ Like the Contact page, the Successpage also does not have a footer.
 -** Events Cards:** Clearly set out individual events being run by the club, with a breif outline and a call to action to allow for users to easily join the event
 - **Contact Form:** A clear and straightforward form to allow for users to contact the Club, to perform any of the actions they have been previouslty prompted to do.
 
-  ### Additonal Features to add in future
+### Additonal Features to add in future
 
   - News page: a page offering several articles from the Club's Monthly Newsletter, with a link to sign up to the Newsletter via the Content page. this waould also entail expandingf the Nav Bar to accomodate a new main page. This was not implemented due to timing constraints.
   - Increased Interactivity on Event Cards: Ideally, I would like to have a scrollable body on the cards to allow for more text to be added without it leaving the confines of the card or hiding the Join Button. Was unable to work out how to implement this easily, suspect may require some form of Javascript or a lot of tinkering in CSS.
@@ -150,3 +150,4 @@ To Clarify what is mean by reference - the Example project code was used to refe
 ####Disclaimer
 
 This Website is intended for educational purposes only. No such Gaming Club exists in real life, and there is no such St Mary's Hall. All Emails, Phone Numbers and Addresses included in the Website are fictional.
+
