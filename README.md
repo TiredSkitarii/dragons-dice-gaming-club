@@ -124,6 +124,20 @@ This Project with made using HTML and Javascript
 
 ## Deployment
 
+This project was developed using the VSCode IDE, committed to git and pushed to GitHub using the built in function within cloud9.
+
+To deploy this page to GitHub Pages from its GitHub repository (https://github.com/TiredSkitarii/dragons-dice-gaming-club), the following steps were taken:
+
+- Log into GitHub.
+- From the list of repositories on the screen, select TiredSkitarii/dragons-dice-gaming-club.
+- From the menu items near the top of the page, select Settings.
+- Scroll down to the GitHub Pages section.
+- Under Source click the drop-down menu labelled None and select Master Branch
+- On selecting Master Branch the page is automatically refreshed, the website is now deployed.
+- Scroll back down to the GitHub Pages section to retrieve the link to the deployed website.
+
+At the moment of submitting this Milestone project the Development Branch and Master Branch are identical.
+
 ## Credits
 
 ### Content
@@ -152,6 +166,7 @@ To Clarify what is mean by reference - the Example project code was used to refe
 #### Disclaimer
 
 This Website is intended for educational purposes only. No such Gaming Club exists in real life, and there is no such St Mary's Hall. All Emails, Phone Numbers and Addresses included in the Website are fictional.
+
 
 
 
