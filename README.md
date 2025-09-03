@@ -103,7 +103,7 @@ Like the Contact page, the Successpage also does not have a footer.
 - **Club Information:** gives information on the Club to prospective users
 - **Location Information:** gives information on the location of the club to prospective users
 - **Timetable:** sets out when the regular activities at the club occur, allowing potential users to plan their visits to the club
--** Events Cards:** Clearly set out individual events being run by the club, with a breif outline and a call to action to allow for users to easily join the event
+- **Events Cards:** Clearly set out individual events being run by the club, with a breif outline and a call to action to allow for users to easily join the event
 - **Contact Form:** A clear and straightforward form to allow for users to contact the Club, to perform any of the actions they have been previouslty prompted to do.
 
 ### Additonal Features to add in future
@@ -136,7 +136,7 @@ To deploy this page to GitHub Pages from its GitHub repository (https://github.c
 - On selecting Master Branch the page is automatically refreshed, the website is now deployed.
 - Scroll back down to the GitHub Pages section to retrieve the link to the deployed website.
 
-At the moment of submitting this Milestone project the Development Branch and Master Branch are identical.
+At the moment of submitting this Milestone project the Development Branch and Master Branch are the same.
 
 ## Credits
 
@@ -160,12 +160,13 @@ To Clarify what is mean by reference - the Example project code was used to refe
 
 ### Acknowledgements
 - Inspiration for the project was received from my own background and hobbies
-- Special thanks to my Mentor Brian Machiara for his support along the way
+- Special thanks to my Mentor Brian Macharia for his support and suggestions along the way
 - Special Acknowledgment to Sam Smith for agreeing to be the model holding the Magic: The Gathering Cards for the one picture
 
 #### Disclaimer
 
 This Website is intended for educational purposes only. No such Gaming Club exists in real life, and there is no such St Mary's Hall. All Emails, Phone Numbers and Addresses included in the Website are fictional.
+
 
 
 
