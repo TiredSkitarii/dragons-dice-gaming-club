@@ -95,6 +95,13 @@ footer {
 
 /* Footer Section */
 
+.social-links {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    flex-direction: row;
+}
+
 #contact .social-links i {
     color: whitesmoke;
     font-size: 2rem
