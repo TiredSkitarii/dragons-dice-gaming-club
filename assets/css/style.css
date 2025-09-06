@@ -47,6 +47,14 @@ footer {
     font-size: xx-large;
 }
 
+.nav-link {
+    color:whitesmoke
+}
+
+.active {
+    font-weight: bold;
+}
+
 /* Header */
 
 #header p {
