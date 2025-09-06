@@ -18,6 +18,13 @@ h1, h2, h3 {
     font-family: var(--secondary-font);
 }
 
+p {
+    line-height: 2rem;
+    font-size: 1.1rem;
+    font-weight: 450;
+    letter-spacing: 0.1px
+}
+
 footer {
     background-color: darkred;
     color: whitesmoke
