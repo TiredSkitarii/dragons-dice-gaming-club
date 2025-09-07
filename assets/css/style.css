@@ -137,16 +137,19 @@ footer {
 @media screen and (min-width: 768px) {
 .carousel-item img {
     height:30rem;
-} }
+    }
+}
 
 /* Large Devices (992px and up) */
 @media screen and (min-width: 992px) {
 .carousel-item img {
     height:35rem;
-} }
+    }
+}
 
 /* XL Devices (1200px and up) */
 @media screen and (min-width: 992px) {
 .carousel-item img {
     height:40rem;
-} }
+    }
+}
