@@ -45,9 +45,18 @@ There are two types of ideal user for this website - a New Visitor and an Existi
 
 **Wireframe Mockups**
 
-Mobile devices (Small Screen Size)
+Desktop View - Main Page
+![Wireframe Main Page](https://github.com/user-attachments/assets/6acd07af-8566-4446-b3e4-611376429b6d)
 
-Desktop Devices (Large Screen Size)
+Desktop View - Events page
+![Wireframe Events Page](https://github.com/user-attachments/assets/c3890bd4-bbee-4fac-bcdd-0bb0f8b882fd)
+
+Mobile View - Main & Event page
+Due to the limited width of the typical mobile sized screen, the Main and Event page use the same structure on Mobile screens
+![Wireframe mobile view](https://github.com/user-attachments/assets/71adb33d-da07-4b48-bfff-e0965bab8593)
+
+Contact Form
+![Wireframe Contact form](https://github.com/user-attachments/assets/0dfc3037-c4de-41a1-a9e0-fce530f0a1e3)
 
 ## Features
 
@@ -166,6 +175,7 @@ To Clarify what is mean by reference - the Example project code was used to refe
 #### Disclaimer
 
 This Website is intended for educational purposes only. No such Gaming Club exists in real life, and there is no such St Mary's Hall. All Emails, Phone Numbers and Addresses included in the Website are fictional.
+
 
 
 
