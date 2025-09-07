@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 /* Google Font Styles */
 @import url('https://fonts.googleapis.com/css2?family=Caesar+Dressing&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
@@ -106,10 +113,17 @@ footer {
 /* Footer Section */
 
 .social-links {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: flex-start;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
     gap: 10px;
-    flex-direction: row;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
 }
 
 #contact .social-links i {
