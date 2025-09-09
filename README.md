@@ -40,8 +40,8 @@ There are two types of ideal user for this website - a New Visitor and an Existi
 3. As a New Visitor to this site, I want to learn more about the Clubs regular activites, so I can see if it supports any of the games I play.
 4. As a New Visitor to this site, I want to see when the Club is running, so I can see if I can take part.
 5. As a New Visitor to this site, I want to be able to easily contact the club, so I can sign up or ask a question.
-7. As an Exisiting Member of the club, I want to see what new events are upcoming, so I can see if I can take part.
-8. As an Exisiting Member of the club, I want to be able to easily contact the club, so I can sign up for events or request new information.
+6. As an Exisiting Member of the club, I want to see what new events are upcoming, so I can see if I can take part.
+7. As an Exisiting Member of the club, I want to be able to easily contact the club, so I can sign up for events or request new information.
 
 **Wireframe Mockups**
 
@@ -153,12 +153,48 @@ The Webpages were tested on the following criteria to assess their functionality
 | Logo Navigation | Access Home Page via clicking on Nav Bar Logo on all pages | Home page opens |  PASS  |
 | Responsive screen | Layout of all pages change at pre-determins breakoints | Layout changes at certain breakpoints |  PASS  |
 
+All Code was also validates using the online W3C HTML Validator and CSS Validator - no errors were discovered during this Validation.
+
 ### Browser Compatibility
+
+The Webpage was tested on the following Browsers:
+- Google Chrome
+- Mirosoft Edge
+- Safari
+
+On all tests browsers the manual tests were repeated, and on all browsers they passed the tests
 
 ### Responsiveness
 
+The webpage was tested for responsiveness on the following screen sizes:
+- Mobile (360 x 740 approx)
+- Tablet (1024 x 1366 approx)
+- Laptop/Desktop screen (1920 x 1080 approx)
+
+On all sizes tests, the layout changed to match that determined by the code breakpoints. One area was identifies where the layout was less than opitimal on Screen Sizes between 992px and 768px, where the Timetable on the Home page was loading in two columns - this was changed to load into two columns at the large Breakpoint (992px) instead of the medium (768px), providing a better viusal experience at these sizes.
+
 ### User Stories
 
+1. As a New Visitor to this site, I want to learn more about what the Club does, so I can see if it meets my needs
+This is met by the "About Us" Section of the Home Page
+
+2. As a New Visitor to this site, I want to learn more about the Club's values, so I can see if it meets my preferences.
+This is met by the "What we stand fpr" section of the Home Page
+
+3. As a New Visitor to this site, I want to learn more about the Clubs regular activites, so I can see if it supports any of the games I play.
+This is met by the "Weekly Activities" section, as well as by information in the "About Us" Section of the Home Page
+   
+4. As a New Visitor to this site, I want to see when the Club is running, so I can see if I can take part.
+This is met by the "Weekly Acivities " Section of the Home Page
+
+5. As a New Visitor to this site, I want to be able to easily contact the club, so I can sign up or ask a question.
+This is met by the Contact Form and the "Contact Information" in the Footer on the Home/Event Page. It is enabled by the Buttons on the NavBar and Home Page to the Contact Form
+
+6. As an Exisiting Member of the club, I want to see what new events are upcoming, so I can see if I can take part.
+This is met by the Events Page
+    
+7. As an Exisiting Member of the club, I want to be able to easily contact the club, so I can sign up for events or request new information.
+This is met by the Contact Form, via the links on the Event Page for each Event
 
 ## Deployment
 
@@ -166,13 +202,13 @@ This project was developed using the VSCode IDE, committed to git and pushed to 
 
 To deploy this page to GitHub Pages from its GitHub repository (https://github.com/TiredSkitarii/dragons-dice-gaming-club), the following steps were taken:
 
-- Log into GitHub.
-- From the list of repositories on the screen, select TiredSkitarii/dragons-dice-gaming-club.
-- From the menu items near the top of the page, select Settings.
-- Scroll down to the GitHub Pages section.
-- Under Source click the drop-down menu labelled None and select Master Branch
-- On selecting Master Branch the page is automatically refreshed, the website is now deployed.
-- Scroll back down to the GitHub Pages section to retrieve the link to the deployed website.
+- Logging into GitHub.
+- From the list of repositories on the screen, selected TiredSkitarii/dragons-dice-gaming-club.
+- From the menu items near the top of the page, selected Settings.
+- Scrolled down to the GitHub Pages section.
+- Under Source clicked the drop-down menu labelled None and selected Master Branch
+- On selecting Master Branch the page was automatically refreshed, the website was then deployed.
+- Scrolled back down to the GitHub Pages section to retrieve the link to the deployed website: https://tiredskitarii.github.io/dragons-dice-gaming-club/
 
 At the moment of submitting this Milestone project the Development Branch and Master Branch are the same.
 
@@ -206,9 +242,3 @@ To Clarify what is mean by reference - the Example project code was used to refe
 This Website is intended for educational purposes only. No such Gaming Club exists in real life, and there is no such St Mary's Hall. All Emails, Phone Numbers and Addresses included in the Website are fictional.
 
 All models displayed belong to the private collection of Jakob McLaughlin, and do not represent any endorsment. support or acknowledgement of the model manufacturers. All relevant Copyrights and Tredemarks belong to their respective companies.
-
-
-
-
-
-
