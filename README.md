@@ -156,11 +156,14 @@ The Webpages were tested on the following criteria to assess their functionality
 
 All Code was also validates using the online W3C HTML Validator and CSS Validator - no errors were discovered during this Validation.
 
+When subjectesd to Lighthouse testing, a lag in performance of about 66 on mobile and 75 on Desktop (all other metrics tested well) - upon looking into ways to improve this, it was detrermines (with help from Brian Macharia) that large image sizes may be contributing to the issue - most images were re-formatted into smaller WEBP images with less pixels.
+
 ### Browser Compatibility
 
 The Webpage was tested on the following Browsers:
 - Google Chrome
 - Mirosoft Edge
+- Firefox
 - Safari
 
 On all tests browsers the manual tests were repeated, and on all browsers they passed the tests
@@ -236,6 +239,7 @@ To Clarify what is mean by reference - the Example project code was used to refe
 ### Acknowledgements
 - Inspiration for the project was received from my own background and hobbies
 - Special thanks to my Mentor Brian Macharia for his support and suggestions along the way
+- Special Thanks to Vincent and Jozef McLaughlin for assistance with taking pictures and testing
 - Special Acknowledgment to Sam Smith for agreeing to be the model holding the Magic: The Gathering Cards for the one picture
 
 #### Disclaimer
@@ -243,4 +247,5 @@ To Clarify what is mean by reference - the Example project code was used to refe
 This Website is intended for educational purposes only. No such Gaming Club exists in real life, and there is no such St Mary's Hall. All Emails, Phone Numbers and Addresses included in the Website are fictional.
 
 All models displayed belong to the private collection of Jakob McLaughlin, and do not represent any endorsment. support or acknowledgement of the model manufacturers. All relevant Copyrights and Tredemarks belong to their respective companies.
+
 
