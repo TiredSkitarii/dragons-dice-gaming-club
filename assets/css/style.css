@@ -6,150 +6,152 @@
 */
 
 /* Google Font Styles */
-@import url('https://fonts.googleapis.com/css2?family=Caesar+Dressing&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Caesar+Dressing&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
 /* CSS Variables */
 :root {
-    --primary-font: "Montserrat", sans-serif;
-    --secondary-font: "Caesar Dressing", cursive;
+  --primary-font: "Montserrat", sans-serif;
+  --secondary-font: "Caesar Dressing", cursive;
 }
 
 /* General Styles */
 
 body {
-    font-family: var(--primary-font);
-    background-color:#DFD0B7;
+  font-family: var(--primary-font);
+  background-color: #dfd0b7;
 }
 
-h1, h2, h3 {
-    font-family: var(--secondary-font);
+h1,
+h2,
+h3 {
+  font-family: var(--secondary-font);
 }
 
 p {
-    line-height: 2rem;
-    font-size: 1.1rem;
-    font-weight: 450;
-    letter-spacing: 0.1px
+  line-height: 2rem;
+  font-size: 1.1rem;
+  font-weight: 450;
+  letter-spacing: 0.1px;
 }
 
 footer {
-    background-color: darkred;
-    color: whitesmoke
+  background-color: darkred;
+  color: whitesmoke;
 }
 /* Adds space between sections */
 .section {
-    padding-top: 2rem;
+  padding-top: 2rem;
 }
 
 /* pushes Header to be visible beneath Navbar */
 #header {
-    padding-top: 6rem;
+  padding-top: 6rem;
 }
 
 #events-list {
-    padding-top: 6rem;
+  padding-top: 6rem;
 }
 
 #success {
-    padding-top: 6rem;
+  padding-top: 6rem;
 }
 
 /* Navbar */
 
 .navbar-brand {
-    font-family: var(--secondary-font);
-    font-size: xx-large;
+  font-family: var(--secondary-font);
+  font-size: xx-large;
 }
 
 .nav-link {
-    color:whitesmoke
+  color: whitesmoke;
 }
 
 .active {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .nav-item .btn {
-    margin-left: 8px
+  margin-left: 8px;
 }
 
 /* Header */
 
 #header p {
-    font-size: large;
+  font-size: large;
 }
 
 /* Carousel */
 
 .carousel-item img {
-    height: 20rem;
-    width: 100%;
+  height: 20rem;
+  width: 100%;
 }
 
 /* Events Page */
 
 .card {
-    margin-bottom: 1rem;
-    margin-left: auto;
-    margin-right: auto;
+  margin-bottom: 1rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .card img {
-    height: 12rem;
+  height: 12rem;
 }
 
 /* Contact form */
 
 .form-label {
-    margin-top: 16px;
-    margin-bottom: 8px;
+  margin-top: 16px;
+  margin-bottom: 8px;
 }
 
 #contact-form button {
-    margin-top: 1.5rem;
-    margin-bottom: 1rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
 }
 
 /* Footer Section */
 
 .social-links {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
-    gap: 10px;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  gap: 10px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
 }
 
 #contact .social-links i {
-    color: whitesmoke;
-    font-size: 2rem
+  color: whitesmoke;
+  font-size: 2rem;
 }
 
 /* Media Queries for resizing */
 
 /* Medium Devices (768px and up)*/
 @media screen and (min-width: 768px) {
-.carousel-item img {
-    height:30rem;
-    }
+  .carousel-item img {
+    height: 30rem;
+  }
 }
 
 /* Large Devices (992px and up) */
 @media screen and (min-width: 992px) {
-.carousel-item img {
-    height:35rem;
-    }
+  .carousel-item img {
+    height: 35rem;
+  }
 }
 
 /* XL Devices (1200px and up) */
 @media screen and (min-width: 992px) {
-.carousel-item img {
-    height:40rem;
-    }
+  .carousel-item img {
+    height: 40rem;
+  }
 }
