@@ -3,6 +3,7 @@
 ## A tabletop Gaming Club running regular gaming sessions and events
 
 A Website for a local Tabletop Gaming Club based in the town of Portishead. The Website features images of the games run by the event, an explanation of the clubs goals and standards, a timetable of the Clubs regular activities and a page with upcoming major events being run by the club. The Primary two goals of the website is to advertise the club to convince new members to sign up, as well as provide information on upcoming events for existing club members.
+
 The scale of the club is a few dozen members, enough to represent the local area, and is not intended to run as a "business". Consequently, while the Club does have Business Goals, they are conserneerd with maintaining and growing Club Activity rather than providing a service, and so the club's website is stuctured accordingly.
 
 The Buisness Goals of the Website are:
@@ -271,4 +272,5 @@ To Clarify what is mean by reference - the Example project code was used to refe
 This Website is intended for educational purposes only. No such Gaming Club exists in real life, and there is no such St Mary's Hall. All Emails, Phone Numbers and Addresses included in the Website are fictional.
 
 All models displayed belong to the private collection of Jakob McLaughlin, and do not represent any endorsment. support or acknowledgement of the relevant model manufacturers. All relevant Copyrights and Tredemarks belong to their respective companies.
+
 
