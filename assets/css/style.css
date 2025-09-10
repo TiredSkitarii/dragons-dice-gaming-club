@@ -60,7 +60,7 @@ footer {
 
 .navbar-brand {
   font-family: var(--secondary-font);
-  font-size: xx-large;
+  font-size: 2.5rem;
 }
 
 .nav-link {
@@ -78,7 +78,7 @@ footer {
 /* Header */
 
 #header p {
-  font-size: large;
+  font-size: 1.15rem;
 }
 
 /* Carousel */
