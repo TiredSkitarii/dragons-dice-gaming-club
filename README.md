@@ -225,7 +225,7 @@ To deploy this page to GitHub Pages from its GitHub repository (https://github.c
 
 At the moment of submitting this Milestone project the Development Branch and Main Branch are the same.
 
-###How to run project
+### How to run project
 
 To clone this project, you will need the following:
 - a Github account (create at: https://github.com)
@@ -272,5 +272,6 @@ To Clarify what is mean by reference - the Example project code was used to refe
 This Website is intended for educational purposes only. No such Gaming Club exists in real life, and there is no such St Mary's Hall. All Emails, Phone Numbers and Addresses included in the Website are fictional.
 
 All models displayed belong to the private collection of Jakob McLaughlin, and do not represent any endorsment. support or acknowledgement of the relevant model manufacturers. All relevant Copyrights and Tredemarks belong to their respective companies.
+
 
 
