@@ -53,6 +53,7 @@ Desktop View - Events page
 
 Mobile View - Main & Event page
 Due to the limited width of the typical mobile sized screen, the Main and Event page use the same structure on Mobile screens
+(I also apologise for the slighty fuzzy nature of this image - the camera unfocused last moment, it seems)
 ![Wireframe mobile view](https://github.com/user-attachments/assets/71adb33d-da07-4b48-bfff-e0965bab8593)
 
 Contact Form
@@ -66,7 +67,8 @@ Each page features a Responsive Navigation bar (Nav Bar) that collapses on small
 
 The Home page, referred to as the Index page within the code, is the main page of the website, and serves the main purpose of providing all the information about the club for prospective new members.
 
-After an introductory, welcoming paragraph, the Header of the Home page contains a Carousel of Images featuring images of several of the game systems that are available to be played at the club. The intention of the image carousel is to catch viewers interest, and prompt them to keep viewing the webpage if they see anything that interests them
+After an introductory, welcoming paragraph, the Header of the Home page contains a Carousel of Images featuring images of several of the game systems that are available to be played at the club. The intention of the image carousel is to catch viewers interest, and prompt them to keep viewing the webpage if they see anything that interests them.
+While Autoplayng Carosels are not generally advised due to accessibility reasons, one is included here because the trade off of being able to show several eye-catching images in a single section of screen space is considered acceptable in the context of the website - namely being that of a fairly small gaming club.
 
 The next section is titled "About Us" and is a explanatory paragraph outlining the general purpose of the club - providing a communal environment for tabletop gamers to play games together - and providing an example of some of the many games systems supported at the club. It also outlines the Charity work done by the Club, as well as offering a call to action to submit any questions using the contact link in the Nav bar
 This section includes a Stock Image of people playing a Card Game before a new section detailing the Club's values and commitment to inclusivity.
@@ -91,6 +93,7 @@ the Events page is also closed off by the same footer as the Home page
 The Contact form is a standardised form that allows users to message Dragon's Dice gaming club, to join the club, join an event, sign up for the newsletter or even just ask a question.
 
 The Contact form consists of four fields, all of which are required to successfully submit the form - the Users name, a contact email address for them, the reason for contacting them, and the content of the message itself - all of these are text fields are text entry fields, except for the contact reason, which is a drop down listing the most common reasopns for contact: Sign up to club, sign up for Newsletter, Sign up for an event or Question/other message.
+All the entry fields are mandatory, which prevents an incomplete form being submitted.
 Filling out and Submiting the form through the Submit button will take the user to the Success page.
 
 The Contact form does not contain the usual footer, as it is not a "main" webpage - rather than contain information to be browsed, it has a direct purpose in enabling contact with the Club's admin team, so is focused solely on that.
@@ -121,7 +124,7 @@ Like the Contact page, the Successpage also does not have a footer.
 
 ## Technology used
 
-This Project with made using HTML, CSS and Javascript
+This Project with made using HTML, CSS and Javascript*
 - The IDE used was Visual Studio Code (VSCode)
 - Website is hosted on GitHub (https://github.com)
 - Bootstrap CDN v5.3.8 was used in the construction of this Webpage (https://getbootstrap.com/)
@@ -130,6 +133,7 @@ This Project with made using HTML, CSS and Javascript
 - HTML and CSS Validated with W3C Markup Validation service (https://validator.w3.org/) and W3C CSS Validator Service (https://jigsaw.w3.org/css-validator/)
 - Autoprefixer CSS Online used to validate the CSS code for all browsers (https://autoprefixer.github.io/)
 - Code was Formatted using Prettier - Code Formatter extension availble on VSCode Extensions Marketplace
+(* Javascript included in Bootstrap) 
 
 ## Testing
 
@@ -156,7 +160,8 @@ The Webpages were tested on the following criteria to assess their functionality
 
 All Code was also validates using the online W3C HTML Validator and CSS Validator - no errors were discovered during this Validation.
 
-When subjectesd to Lighthouse testing, a lag in performance of about 66 on mobile and 75 on Desktop (all other metrics tested well) - upon looking into ways to improve this, it was detrermines (with help from Brian Macharia) that large image sizes may be contributing to the issue - most images were re-formatted into smaller WEBP images with less pixels.
+When subjectesd to Lighthouse testing, a lag in performance of about 66 on mobile and 75 on Desktop (all other metrics tested well) - upon looking into ways to improve this, it was detrermines (with help from Brian Macharia) that large image sizes may be contributing to the issue - all JPEG images were re-formatted into smaller WEBP images with less pixels. This improved the score of the mobile load to 73 on mobile (no discernable effect on desktop), but was still slower than was ideal. On further review, it was determined that the images could be perhaps made smaller still, but constraints with time prevented this being implemented. For now the performance score must remain as it is, but if carried on in future, this project would look to decrease the image sizes further to promote faster loading.
+(A contributing factor to the images large size may be that many of them were photographs, and thus not optimised for digital display)
 
 ### Browser Compatibility
 
@@ -177,13 +182,15 @@ The webpage was tested for responsiveness on the following screen sizes:
 
 On all sizes tests, the layout changed to match that determined by the code breakpoints. One area was identifies where the layout was less than opitimal on Screen Sizes between 992px and 768px, where the Timetable on the Home page was loading in two columns - this was changed to load into two columns at the large Breakpoint (992px) instead of the medium (768px), providing a better viusal experience at these sizes.
 
+There is still some issues at extreme screen sizes (2000+ px), with the content being centered in the middle of the screen, but this seems to be due to the Containers the content is stored in being capped in size at 1980px. However, as the average screen size seems to be 1980x1080, this is not a priority issue, as it is unlikely to come up in the websites theoretical regualr use.
+
 ### User Stories
 
 1. As a New Visitor to this site, I want to learn more about what the Club does, so I can see if it meets my needs
 This is met by the "About Us" Section of the Home Page
 
 2. As a New Visitor to this site, I want to learn more about the Club's values, so I can see if it meets my preferences.
-This is met by the "What we stand fpr" section of the Home Page
+This is met by the "What we stand for" section of the Home Page
 
 3. As a New Visitor to this site, I want to learn more about the Clubs regular activites, so I can see if it supports any of the games I play.
 This is met by the "Weekly Activities" section, as well as by information in the "About Us" Section of the Home Page
@@ -216,6 +223,21 @@ To deploy this page to GitHub Pages from its GitHub repository (https://github.c
 
 At the moment of submitting this Milestone project the Development Branch and Main Branch are the same.
 
+###How to run project
+
+To clone this project, you will need the following:
+- a Github account (create at: https://github.com)
+- access to an IDE (such as VSCode)
+
+1. Go to this projects Github repository: https://github.com/TiredSkitarii/dragons-dice-gaming-club
+2. select the downwards arrow on the green "<> Code" button
+3. Select the Local tab in the dropdown
+4. copy the HTTPS URL displayed
+5. Go to your chosen IDE and open a New Terminal
+6. Change your Working Directory to where you would want the cloned repository to be saved
+7. type "git clone" then add the copied URL
+8. Press enter to clone the Repository
+
 ## Credits
 
 ### Content
@@ -229,6 +251,7 @@ At the moment of submitting this Milestone project the Development Branch and Ma
    - The Photo of the Merry Christmas Sign was originally taken by Brett Sayles
 -  Photos of Greyfriars hall (used as a stand in for the fictional St Mary's hall) were taken by Vincent McLaughlin
 -  All other Photos taken by Jakob McLaughlin
+-  All Photos were compressed into WEBP Files using: https://www.freeconvert.com/jpg-to-webp
 -  All Models and Minatures depicted come from the personal collecton of Jakob McLaughlin
 
 ### Code
@@ -246,6 +269,4 @@ To Clarify what is mean by reference - the Example project code was used to refe
 
 This Website is intended for educational purposes only. No such Gaming Club exists in real life, and there is no such St Mary's Hall. All Emails, Phone Numbers and Addresses included in the Website are fictional.
 
-All models displayed belong to the private collection of Jakob McLaughlin, and do not represent any endorsment. support or acknowledgement of the model manufacturers. All relevant Copyrights and Tredemarks belong to their respective companies.
-
-
+All models displayed belong to the private collection of Jakob McLaughlin, and do not represent any endorsment. support or acknowledgement of the relevant model manufacturers. All relevant Copyrights and Tredemarks belong to their respective companies.
