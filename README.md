@@ -204,31 +204,37 @@ There is still some issues at extreme screen sizes (2000+ px), with the content 
 This is met by the "About Us" Section of the Home Page.
 <img width="1327" height="605" alt="Screenshot 2025-10-20 203702" src="https://github.com/user-attachments/assets/cb0b0846-554a-43ff-a8bc-9b578db8c47b" />
 
-3. As a New Visitor to this site, I want to learn more about the Club's values, so I can see if it meets my preferences.
+
+2. As a New Visitor to this site, I want to learn more about the Club's values, so I can see if it meets my preferences.
 This is met by the "What we stand for" section of the Home Page.
 <img width="673" height="303" alt="Screenshot 2025-10-20 203957" src="https://github.com/user-attachments/assets/8b3a22e7-e5ab-46b6-8ff4-33bce4fea9f1" />
 
-5. As a New Visitor to this site, I want to learn more about the Clubs regular activites, so I can see if it supports any of the games I play.
+
+3. As a New Visitor to this site, I want to learn more about the Clubs regular activites, so I can see if it supports any of the games I play.
 This is met by the "Weekly Activities" section, as well as by information in the "About Us" Section of the Home Page.
 <img width="1327" height="605" alt="Screenshot 2025-10-20 203702" src="https://github.com/user-attachments/assets/0b494e81-2a10-473c-a857-6b28edccbb43" />
 <img width="714" height="610" alt="Screenshot 2025-10-20 204107" src="https://github.com/user-attachments/assets/a3525c39-b10b-4852-9506-7c8cf1a9a1e8" />
 
-7. As a New Visitor to this site, I want to see when the Club is running, so I can see if I can take part.
+
+4. As a New Visitor to this site, I want to see when the Club is running, so I can see if I can take part.
 This is met by the "Weekly Acivities " Section of the Home Page, particularly the Timetable section.
 <img width="691" height="417" alt="Screenshot 2025-10-20 204223" src="https://github.com/user-attachments/assets/b02d8776-3e24-410d-b539-1f6cf94d0717" />
 
-9. As a New Visitor to this site, I want to be able to easily contact the club, so I can sign up or ask a question.
+
+5. As a New Visitor to this site, I want to be able to easily contact the club, so I can sign up or ask a question.
 This is met by the Contact Form and the "Contact Information" in the Footer on the Home/Event Page. It is enabled by the Buttons on the NavBar and Home Page to the Contact Form
 <img width="1371" height="796" alt="Screenshot 2025-10-20 204403" src="https://github.com/user-attachments/assets/842aaf72-9b20-4d96-a31a-1a6122cd65f5" />
 <img width="989" height="324" alt="Screenshot 2025-10-20 204318" src="https://github.com/user-attachments/assets/0cb527c1-fd7d-4292-810f-8c78e61ab435" />
 <img width="479" height="66" alt="Screenshot 2025-10-20 204335" src="https://github.com/user-attachments/assets/900c53f4-3abf-4b02-9c18-77e71617208d" />
 
-11. As an Exisiting Member of the club, I want to see what new events are upcoming, so I can see if I can take part.
+
+6. As an Exisiting Member of the club, I want to see what new events are upcoming, so I can see if I can take part.
 This is met by the Events Page.
 <img width="1401" height="370" alt="Screenshot 2025-10-20 204455" src="https://github.com/user-attachments/assets/3c22f978-2800-4de4-9804-2d722d404afd" />
 <img width="1337" height="620" alt="Screenshot 2025-10-20 204540" src="https://github.com/user-attachments/assets/f4c6da41-2d1b-4689-a965-de0a6e2055a4" />
 
-13. As an Exisiting Member of the club, I want to be able to easily contact the club, so I can sign up for events or request new information.
+
+7. As an Exisiting Member of the club, I want to be able to easily contact the club, so I can sign up for events or request new information.
 This is met by the Contact Form, via the links on the Event Page for each Event.
 <img width="1371" height="796" alt="Screenshot 2025-10-20 204403" src="https://github.com/user-attachments/assets/9c8822e8-d91e-4cde-a555-45823cebf70e" />
 <img width="1337" height="620" alt="Screenshot 2025-10-20 204540" src="https://github.com/user-attachments/assets/f184b715-519b-49eb-992e-deb37474fc7b" />
@@ -296,6 +302,7 @@ To Clarify what is mean by reference - the Example project code was used to refe
 This Website is intended for educational purposes only. No such Gaming Club exists in real life, and there is no such St Mary's Hall. All Emails, Phone Numbers and Addresses included in the Website are fictional.
 
 All models displayed belong to the private collection of Jakob McLaughlin, and do not represent any endorsment. support or acknowledgement of the relevant model manufacturers. All relevant Copyrights and Tredemarks belong to their respective companies.
+
 
 
 
