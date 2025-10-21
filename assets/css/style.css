@@ -81,14 +81,6 @@ footer {
   font-size: 1.15rem;
 }
 
-/* Carousel */
-
-.carousel-item img {
-  height: 20rem;
-  width: 100%;
-  object-fit: cover;
-}
-
 /* Events Page */
 
 .card {
