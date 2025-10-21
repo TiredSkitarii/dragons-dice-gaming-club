@@ -2,7 +2,7 @@
 
 ## A tabletop Gaming Club running regular gaming sessions and events
 
-A Website for a local Tabletop Gaming Club based in the town of Portishead. The Website features images of the games run by the event, an explanation of the clubs goals and standards, a timetable of the Clubs regular activities and a page with upcoming major events being run by the club. The Primary two goals of the website is to advertise the club to convince new members to sign up, as well as provide information on upcoming events for existing club members.
+A Website for a local Tabletop Gaming Club based in the town of Portishead. The Website features ~~images of the games run by the event~~, an explanation of the clubs goals and standards, a timetable of the Clubs regular activities and a page with upcoming major events being run by the club. The Primary two goals of the website is to advertise the club to convince new members to sign up, as well as provide information on upcoming events for existing club members.
 
 The scale of the club is a few dozen members, enough to represent the local area, and is not intended to run as a "business". Consequently, while the Club does have Business Goals, they are conserneerd with maintaining and growing Club Activity rather than providing a service, and so the club's website is stuctured accordingly.
 
@@ -69,8 +69,9 @@ Each page features a Responsive Navigation bar (Nav Bar) that collapses on small
 
 The Home page, referred to as the Index page within the code, is the main page of the website, and serves the main purpose of providing all the information about the club for prospective new members.
 
-After an introductory, welcoming paragraph, the Header of the Home page contains a Carousel of Images featuring images of several of the game systems that are available to be played at the club. The intention of the image carousel is to catch viewers interest, and prompt them to keep viewing the webpage if they see anything that interests them.
-While Autoplayng Carosels are not generally advised due to accessibility reasons, one is included here because the trade off of being able to show several eye-catching images in a single section of screen space is considered acceptable in the context of the website - namely being that of a fairly small gaming club.
+~~After an introductory, welcoming paragraph, the Header of the Home page contains a Carousel of Images featuring images of several of the game systems that are available to be played at the club. The intention of the image carousel is to catch viewers interest, and prompt them to keep viewing the webpage if they see anything that interests them.
+While Autoplayng Carosels are not generally advised due to accessibility reasons, one is included here because the trade off of being able to show several eye-catching images in a single section of screen space is considered acceptable in the context of the website - namely being that of a fairly small gaming club.~~
+Unfortunately, it became necessary to remove the carousel as the images, as photos, did not meet the assessment criteria for marking this project. If this was a real webpage then we would keep the carousel as it serves a useful purpose in generating interest and promoting the activities of the club. The relatively poor quality of the images would not be an issue, as the website is not intended to be a professional website, and as such the "amatuerish" nature of the images are in keeping with the theme of the site.
 
 The next section is titled "About Us" and is a explanatory paragraph outlining the general purpose of the club - providing a communal environment for tabletop gamers to play games together - and providing an example of some of the many games systems supported at the club. It also outlines the Charity work done by the Club, as well as offering a call to action to submit any questions using the contact link in the Nav bar
 This section includes a Stock Image of people playing a Card Game before a new section detailing the Club's values and commitment to inclusivity.
@@ -113,7 +114,7 @@ Like the Contact page, the Successpage also does not have a footer.
 - **Footer Contact info:** Appears on the Home and Events page, allows user to locate the venue and contact the club administrators.
 - **Footer Social Links:** Appears on the Home and Events page, allows user to access social platforms the Club is on.
 - **Call to Action Buttons:** Present on every page, in some form. Acts as a prompt to allow users to interact with the club
-- **Home Page Carousel:** adds visual appeal by displaying club actvities, engaging the interest of potential users.
+- ~~**Home Page Carousel:** adds visual appeal by displaying club actvities, engaging the interest of potential users.~~
 - **Club Information:** gives information on the Club to prospective users
 - **Location Information:** gives information on the location of the club to prospective users
 - **Timetable:** sets out when the regular activities at the club occur, allowing potential users to plan their visits to the club
@@ -123,6 +124,7 @@ Like the Contact page, the Successpage also does not have a footer.
 ### Additonal Features to add in future
 
   - News page: a page offering several articles from the Club's Monthly Newsletter, with a link to sign up to the Newsletter via the Content page. this waould also entail expandingf the Nav Bar to accomodate a new main page. This was not implemented due to timing constraints.
+  - Re-adding the carousel at some point in the future would be nice - it worked and served a useful purpose, losing it for what it feels are arbitary aesthetic reasons is disappointing 
 
 ## Technology used
 
@@ -149,7 +151,7 @@ The Webpages were tested on the following criteria to assess their functionality
 | Home Navigation | Access Home Page (from events page) via link in Nav Bar | Home Page opens |   PASS  |
 | Contact Info Navigation | Access Contact info in footer via link in Nav Bar | Scrolls to bottom of home page |  PASS  |
 | Contact Form Navigation | Access Contact Form via button in Nav Bar | Contact Form opens | PASS |
-| Carosel Auto-Play | Wait to see if Carosel on Home Page autoplays | the Carousel images cycles on its own | PASS |
+| ~~Carosel Auto-Play~~ | ~~Wait to see if Carosel on Home Page autoplays~~ | ~~the Carousel images cycles on its own~~ | ~~PASS~~ |
 | Contact Form Navigation 2 | Access Contact Form via button on Home Page | Contact Form opens |  PASS  |
 | Contact Form Navigation 3 | Access Contact Form via buttons on Event Page cards | Contact Form opens |  PASS  |
 | Contact Form Required Fields | Submit form with different input fields unfilled | Contact form does not submiy while input fields are empty |  PASS  |
@@ -164,6 +166,7 @@ All Code was also validates using the online W3C HTML Validator and CSS Validato
 
 When subjectesd to Lighthouse testing, a lag in performance of about 66 on mobile and 75 on Desktop (all other metrics tested well) - upon looking into ways to improve this, it was detrermines (with help from Brian Macharia) that large image sizes may be contributing to the issue - all JPEG images were re-formatted into smaller WEBP images with less pixels. This improved the score of the mobile load to 73 on mobile (no discernable effect on desktop), but was still slower than was ideal. On further review, it was determined that the images could be perhaps made smaller still, but constraints with time prevented this being implemented. For now the performance score must remain as it is, but if carried on in future, this project would look to decrease the image sizes further to promote faster loading.
 (A contributing factor to the images large size may be that many of them were photographs, and thus not optimised for digital display)
+After removing the carousel images, another Lighthouse test was run again, with a significant dip in performance on Mobile ti 58, but an Improvement in Desktop to about 89.
 
 ### User Experience
 
@@ -302,6 +305,7 @@ To Clarify what is mean by reference - the Example project code was used to refe
 This Website is intended for educational purposes only. No such Gaming Club exists in real life, and there is no such St Mary's Hall. All Emails, Phone Numbers and Addresses included in the Website are fictional.
 
 All models displayed belong to the private collection of Jakob McLaughlin, and do not represent any endorsment. support or acknowledgement of the relevant model manufacturers. All relevant Copyrights and Tredemarks belong to their respective companies.
+
 
 
 
