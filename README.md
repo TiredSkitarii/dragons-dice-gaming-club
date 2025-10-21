@@ -166,7 +166,7 @@ All Code was also validates using the online W3C HTML Validator and CSS Validato
 
 When subjectesd to Lighthouse testing, a lag in performance of about 66 on mobile and 75 on Desktop (all other metrics tested well) - upon looking into ways to improve this, it was detrermines (with help from Brian Macharia) that large image sizes may be contributing to the issue - all JPEG images were re-formatted into smaller WEBP images with less pixels. This improved the score of the mobile load to 73 on mobile (no discernable effect on desktop), but was still slower than was ideal. On further review, it was determined that the images could be perhaps made smaller still, but constraints with time prevented this being implemented. For now the performance score must remain as it is, but if carried on in future, this project would look to decrease the image sizes further to promote faster loading.
 (A contributing factor to the images large size may be that many of them were photographs, and thus not optimised for digital display)
-After removing the carousel images, another Lighthouse test was run again, with a significant dip in performance on Mobile ti 58, but an Improvement in Desktop to about 89.
+After removing the carousel images, another Lighthouse test was run again, with a significant dip in performance on Mobile to 58, but an Improvement in Desktop to about 89. In an effort to combat this, the image size of the Event Cards  and the Town Hall imaged on the main page was reduced further, which improved the load time to 81 - unfortunately, the image size of the remaining images on the Main page could not be reduced without severely affecting the image quality, which would drop the images bewlow the critera for acceptance, so were forced to remain at their current sizes. On Desktop, the score for the desktop improved to 98.
 
 ### User Experience
 
@@ -305,6 +305,7 @@ To Clarify what is mean by reference - the Example project code was used to refe
 This Website is intended for educational purposes only. No such Gaming Club exists in real life, and there is no such St Mary's Hall. All Emails, Phone Numbers and Addresses included in the Website are fictional.
 
 All models displayed belong to the private collection of Jakob McLaughlin, and do not represent any endorsment. support or acknowledgement of the relevant model manufacturers. All relevant Copyrights and Tredemarks belong to their respective companies.
+
 
 
 
