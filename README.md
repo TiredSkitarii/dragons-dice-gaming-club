@@ -71,7 +71,7 @@ The Home page, referred to as the Index page within the code, is the main page o
 
 ~~After an introductory, welcoming paragraph, the Header of the Home page contains a Carousel of Images featuring images of several of the game systems that are available to be played at the club. The intention of the image carousel is to catch viewers interest, and prompt them to keep viewing the webpage if they see anything that interests them.
 While Autoplayng Carosels are not generally advised due to accessibility reasons, one is included here because the trade off of being able to show several eye-catching images in a single section of screen space is considered acceptable in the context of the website - namely being that of a fairly small gaming club.~~
-Unfortunately, it became necessary to remove the carousel as the images, as photos, did not meet the assessment criteria for marking this project. If this was a real webpage then we would keep the carousel as it serves a useful purpose in generating interest and promoting the activities of the club. The relatively poor quality of the images would not be an issue, as the website is not intended to be a professional website, and as such the "amatuerish" nature of the images are in keeping with the theme of the site.
+Unfortunately, it became necessary to remove the carousel as the images, as photos, did not meet the assessment criteria for marking this project. If this was a real webpage then the carousel would be kept as it serves a useful purpose in generating interest and promoting the activities of the club. The relatively poor quality of the images would not necessarily be an issue, as the website is not intended to be a professional or corporate website, and as such the "amatuerish" nature of the images are actually in keeping with the theme of the site.
 
 The next section is titled "About Us" and is a explanatory paragraph outlining the general purpose of the club - providing a communal environment for tabletop gamers to play games together - and providing an example of some of the many games systems supported at the club. It also outlines the Charity work done by the Club, as well as offering a call to action to submit any questions using the contact link in the Nav bar
 This section includes a Stock Image of people playing a Card Game before a new section detailing the Club's values and commitment to inclusivity.
@@ -166,7 +166,10 @@ All Code was also validates using the online W3C HTML Validator and CSS Validato
 
 When subjectesd to Lighthouse testing, a lag in performance of about 66 on mobile and 75 on Desktop (all other metrics tested well) - upon looking into ways to improve this, it was detrermines (with help from Brian Macharia) that large image sizes may be contributing to the issue - all JPEG images were re-formatted into smaller WEBP images with less pixels. This improved the score of the mobile load to 73 on mobile (no discernable effect on desktop), but was still slower than was ideal. On further review, it was determined that the images could be perhaps made smaller still, but constraints with time prevented this being implemented. For now the performance score must remain as it is, but if carried on in future, this project would look to decrease the image sizes further to promote faster loading.
 (A contributing factor to the images large size may be that many of them were photographs, and thus not optimised for digital display)
+
 After removing the carousel images, another Lighthouse test was run again, with a significant dip in performance on Mobile to 58, but an Improvement in Desktop to about 89. In an effort to combat this, the image size of the Event Cards  and the Town Hall imaged on the main page was reduced further, which improved the load time to 81 - unfortunately, the image size of the remaining images on the Main page could not be reduced without severely affecting the image quality, which would drop the images bewlow the critera for acceptance, so were forced to remain at their current sizes. On Desktop, the score for the desktop improved to 98.
+
+Unfortunately, this didn't solve the issue of the webpage not meeting the critera for non-pixilated images, so after confirming that the websites performance was NOT a tested feature for this project, the WEBP images were replaced by the original JPEG files in order to maximise the number of pixels and avoid any pixilation issues. This had the expected side effect of reducing the Lighthouse score of the site down to 68 and 75 for mobile and desktop respectively.
 
 ### User Experience
 
@@ -176,6 +179,7 @@ the webpages was tested on the following criteria for the User Experience:
 |----------|----------|----------|
 | Navigation | Is Navigating the page clear and intuitive? | The page follows that standard convention for site Navigation, using a Nav Bar at the top of the page. all Links are clearly labeled and direct the user to where they say|
 | Text Readability | Is the Text clear and Readable | All Text fonts used are sized enough to be readable on all screen sizes - the Font used for headings is stylised, but remains clearly legible |
+| Image Clarity | are the images clear and viewable | All Images are of sufficent resolution at Mobile and Desktop scales to be clearly visible |
 | Colour Contrast | Are all colours used well contrasted? | All Colours used contrast with each other to remain legible - text colours switrch to remain visible with different background colours used |
 | Consistency | Does the website amintain a consistent style and behaviour? | The Website follows the same visual style throughout all the pages and all interactive features (buttons, etc.) work as presented as would be logically expected of them |
 | Form | Is the Form simple and easy to use? | The Form is limited to four areas, each with a clear label for what it does and is set up to allow only the required input (e.g the email field will not accept non-email text )|
@@ -199,7 +203,7 @@ The webpage was tested for responsiveness on the following screen sizes:
 
 On all sizes tests, the layout changed to match that determined by the code breakpoints. One area was identifies where the layout was less than opitimal on Screen Sizes between 992px and 768px, where the Timetable on the Home page was loading in two columns - this was changed to load into two columns at the large Breakpoint (992px) instead of the medium (768px), providing a better viusal experience at these sizes.
 
-There is still some issues at extreme screen sizes (2000+ px), with the content being centered in the middle of the screen, but this seems to be due to the Containers the content is stored in being capped in size at 1980px. However, as the average screen size seems to be 1980x1080, this is not a priority issue, as it is unlikely to come up in the websites theoretical regualr use.
+There is still some issues at extreme screen sizes (2000+ px), with the content being centered in the middle of the screen, but this seems to be due to the Containers the content is stored in being capped in size at 1980px. However, as the average screen size seems to be 1980x1080, this is not a priority issue, as it is unlikely to come up in the websites theoretical regular use.
 
 ### User Stories
 
@@ -300,11 +304,14 @@ To Clarify what is mean by reference - the Example project code was used to refe
 - Special Thanks to Vincent and Jozef McLaughlin for assistance with taking pictures and testing
 - Special Acknowledgment to Sam Smith for agreeing to be the model holding the Magic: The Gathering Cards for the one picture
 
+However, it also needs to be made clear that this webpage once had a far more visually interesting apperance and was running far smoother in terms of performance, but both of these things had to be sacrificed to meet a marking criteria that seems to be comepletly arbitatry and irrelevant to actually assessing the code written for this webpage. 
+
 #### Disclaimer
 
 This Website is intended for educational purposes only. No such Gaming Club exists in real life, and there is no such St Mary's Hall. All Emails, Phone Numbers and Addresses included in the Website are fictional.
 
-All models displayed belong to the private collection of Jakob McLaughlin, and do not represent any endorsment. support or acknowledgement of the relevant model manufacturers. All relevant Copyrights and Tredemarks belong to their respective companies.
+All models displayed belong to the private collection of Jakob McLaughlin, and do not represent any endorsment, support or acknowledgement of the relevant model manufacturers. All relevant IP rights, Copyrights, Trademarks belong to their respective companies.
+
 
 
 
