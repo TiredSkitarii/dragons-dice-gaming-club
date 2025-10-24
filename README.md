@@ -238,13 +238,14 @@ This is met by the Contact Form and the "Contact Information" in the Footer on t
 6. As an Exisiting Member of the club, I want to see what new events are upcoming, so I can see if I can take part.
 This is met by the Events Page.
 <img width="1401" height="370" alt="Screenshot 2025-10-20 204455" src="https://github.com/user-attachments/assets/3c22f978-2800-4de4-9804-2d722d404afd" />
-<img width="1337" height="620" alt="Screenshot 2025-10-20 204540" src="https://github.com/user-attachments/assets/f4c6da41-2d1b-4689-a965-de0a6e2055a4" />
+<img width="1331" height="607" alt="Screenshot 2025-10-24 124625" src="https://github.com/user-attachments/assets/08cf8ad3-419c-4c17-8ee5-d01219753307" />
 
 
 7. As an Exisiting Member of the club, I want to be able to easily contact the club, so I can sign up for events or request new information.
 This is met by the Contact Form, via the links on the Event Page for each Event.
 <img width="1371" height="796" alt="Screenshot 2025-10-20 204403" src="https://github.com/user-attachments/assets/9c8822e8-d91e-4cde-a555-45823cebf70e" />
-<img width="1337" height="620" alt="Screenshot 2025-10-20 204540" src="https://github.com/user-attachments/assets/f184b715-519b-49eb-992e-deb37474fc7b" />
+<img width="1331" height="607" alt="Screenshot 2025-10-24 124625" src="https://github.com/user-attachments/assets/8b4e50c9-e8ce-4c77-b80b-a48166957538" />
+
 
 ## Deployment
 
@@ -311,6 +312,7 @@ However, it also needs to be made clear that this webpage once had a far more vi
 This Website is intended for educational purposes only. No such Gaming Club exists in real life, and there is no such St Mary's Hall. All Emails, Phone Numbers and Addresses included in the Website are fictional.
 
 All models displayed belong to the private collection of Jakob McLaughlin, and do not represent any endorsment, support or acknowledgement of the relevant model manufacturers. All relevant IP rights, Copyrights, Trademarks belong to their respective companies.
+
 
 
 
